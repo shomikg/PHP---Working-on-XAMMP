@@ -1,8 +1,8 @@
 <?php
 
-$num1 = 10;
-$num2 = 3;
-$result = ($num1 % $num2) / 2;
+$num1 = 1;
+
+$result = ++$num1;
 
 echo $result;
 
