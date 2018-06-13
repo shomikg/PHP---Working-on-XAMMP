@@ -12,10 +12,10 @@
  *  <>  - Not equal to
  */
 
-$name = 'Alex';
+$name = 'Shomik';
 $age = 22;
 
-if ($name == 'Alex') {
+if ($name == 'Shomik') {
     echo 'TRUE';
 } else {
     echo 'NOT TRUE.';
