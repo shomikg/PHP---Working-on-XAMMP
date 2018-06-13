@@ -1,3 +1,3 @@
 <?php
-echo "Hello World.<br>It's a lovely day."
+print "Hello World.<br>It's a lovely day."
 ?>
