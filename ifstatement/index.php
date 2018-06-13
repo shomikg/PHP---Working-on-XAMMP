@@ -1,12 +1,14 @@
 <?php
-$password = 'alex';
 
-if ($password == 'alex'){
-    echo 'This is the correct password!';
+$age = 18;
+
+if($age>=21)
+{
+    echo 'You\'re old enough to drink in India.';
 }
 else
 {
-    echo 'This is the wrong password';
+    echo 'You\'re not old enough to drink in India.';
 }
 
 ?>
