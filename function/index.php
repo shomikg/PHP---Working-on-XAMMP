@@ -1,9 +1,21 @@
 <?php
 
 function name($name) {
-    echo 'My name is '.$name;
+    return 'My name is '.$name;
 }
 
-name('Billy');
+echo name('Billy');
+
+
+echo "<br />"
+
+
+function add($num1, $num2)
+{
+$result = $num1 + $num2;
+return $result;
+}
+
+echo add(10,30);
 
 ?>
