@@ -1,9 +1,9 @@
 <?php
 $num = 1;
-$names = array('Alex','Billy','Dale');
+$names = array('Alex'=>21,'Billy'=>16,'Dale'=>49);
 
 foreach($names as $value)
 {
-    echo 'Name '.$num.' is '.$value.'<br />'
+    echo $value.'<br>';
 }
 ?>
