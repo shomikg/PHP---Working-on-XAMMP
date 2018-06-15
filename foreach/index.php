@@ -2,8 +2,8 @@
 $num = 1;
 $names = array('Alex'=>21,'Billy'=>16,'Dale'=>49);
 
-foreach($names as $value)
+foreach($names as $key => $value)
 {
-    echo $value.'<br>';
+    echo $key.' is '.$value;
 }
 ?>
