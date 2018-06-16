@@ -8,7 +8,8 @@
 $password = 'password';
 if(isset($_POST['password'])&&empty($_POST['password']))
 {
-    if($_POST['password']==$password)
+    $password_post = $_POST['password'];
+    if($password_post==$password)
     {
         echo 'Correct!';
     }
