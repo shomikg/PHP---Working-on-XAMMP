@@ -8,6 +8,13 @@
 $password = 'password';
 if(isset($_POST['password'])&&empty($_POST['password']))
 {
-    echo 'submitted and filled.';
+    if($_POST['password']==$password)
+    {
+        echo 'Correct!';
+    }
+    else
+    {
+        echo 'Incorrect!';
+    }
 }
 ?>
