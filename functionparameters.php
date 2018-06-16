@@ -2,7 +2,10 @@
 function append($initial)
 {
    $result = '';
-    return func_get_arg(0);
+    foreach(func_get_args() as $key => $value)
+    {
+        echo $key;
+    }
 }
 
 echo append('Alex', 'Garrett');
