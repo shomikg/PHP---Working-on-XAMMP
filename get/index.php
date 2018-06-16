@@ -9,7 +9,7 @@
 
 $name = $_GET['name'];
 $age = $_GET['age'];
-if(isset($name)&&isset($age))
+if(isset($name)&&isset($age)&&!empty($name)&&!empty($age))
 {
     echo 'I am '.$name.' and I am '.$age.' years old.';
 }
