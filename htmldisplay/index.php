@@ -6,9 +6,10 @@ if($name == "alex")
 }
 else
 {
-    echo "
+    ?>
     You're not Alex? Please type your name: <br />
-    <input type='text' name='name'><input type='submit' value='Submit'>
-    "
+    <form action="index.php" method="post"><input type="text" name="name"><input type="submit" value="Submit">
+    </form>
+<?php
 }
 ?>
