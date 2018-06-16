@@ -4,8 +4,12 @@ function append($initial)
    $result = '';
     foreach(func_get_args() as $key => $value)
     {
-        echo $key;
+        if($key>=1)
+        {
+            $result.=' '.$value;
+        }
     }
+    return $result;
 }
 
 echo append('Alex', 'Garrett');
